@@ -36,6 +36,7 @@ A robust Spring Boot RESTful API handling business logic and data persistence.
   - `ProductController` - Endpoints for product management.
   - `OrderController` - Endpoints for handling orders.
   - `InvoiceController` - Endpoints for invoice generation.
+  - `SettingController` - Endpoints for application settings and configuration.
 - **Run Locally:**
   ```bash
   cd Order_and_Billing_Backend
@@ -65,7 +66,6 @@ The system was developed collaboratively with responsibilities divided by module
 
 ## 📌 Future Enhancements
 
-- Implementing the Backend API for the `Settings` module.
 - Adding a dedicated `DashboardController` on the backend to aggregate statistics efficiently.
 - Advanced authentication and authorization (e.g., JWT).
 - Dynamic PDF generation for invoices directly from the backend.
